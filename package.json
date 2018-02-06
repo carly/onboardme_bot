@@ -1,18 +1,30 @@
 {
-  "name": "onboardme_bot",
-  "version": "1.0.0",
-  "description": "\"slack app for onboarding\"",
-  "main": "bot.js",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/carly/onboardme_bot.git"
-  },
-  "keywords": [
-    "onboardme"
-  ],
-  "author": "carly",
-  "license": "ISC"
+	"name": "onboardme_bot",
+	"version": "1.0.0",
+	"description": "\"slack app for onboarding\"",
+	"main": "bot.js",
+	"scripts": {
+		"test": "test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/carly/onboardme_bot.git"
+	},
+	"keywords": [
+		"onboardme"
+	],
+	"author": "carly",
+	"license": "ISC",
+	"env": {
+		"clientId": {
+			"description": "Client ID provided by Slack"
+		},
+		"clientSecret": {
+			"description": "Client Secret provided by Slack"
+		},
+		"studio_token": {
+			"description": "Token associated with your bot in Botkit Studio",
+			"required": false
+		}
+	}
 }
