@@ -2,7 +2,7 @@
   "name": "onboardme_bot",
   "version": "1.0.0",
   "description": "\"slack app for onboarding\"",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
     "test": "test"
   },
